@@ -133,11 +133,15 @@ women_subset["goals_scored"] = (
 ```python
 men_subset["goals_scored"].hist()
 plt.show()
+```
+![MEN](men_histplot.png)
 
+
+```python
 women_subset["goals_scored"].hist()
 plt.show()
 ```
-
+![WOMEN](women_histplot.png)
 ### Interpretation
 
 The distributions are not normally distributed.
